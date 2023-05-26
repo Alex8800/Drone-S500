@@ -34,19 +34,19 @@ To use DroneS500, ensure that you have the following:
  ## Folder Structure 
 The folder structure of the DroneS500 project is organized as follows:
 
--  ## android ## : Contains the Android-specific configuration files and resources.
--  ## assets ## : Contains various assets used in the app, including fonts, icons, images, videos, and GIFs.
--  ## ios ## : Contains the iOS-specific configuration files and resources.
--  ## lib ## : Contains the main source code of the Flutter app.
--  ## test ## : Contains unit tests for the app.
--  ## venv ## : Contains the virtual environment for the project.
--  ## .gitignore ## : Specifies files and directories that should be ignored by version control.
--  ## .metadata ## : Stores metadata related to the project.
--  ## README.md ## : The document you are currently reading.
--  ## gradlew ## ,  ## gradlew.bat ## : Gradle wrapper scripts for Android builds.
--  ## local.properties ## : Specifies the path to the Android SDK on your machine.
--  ## pubspec.lock ## : Generated file that tracks the exact versions of dependencies used in the project.
--  ## pubspec.yaml ## : Specifies the dependencies and other configuration details of the Flutter app.
+- **android**: Contains the Android-specific configuration files and resources.
+- **assets**: Contains various assets used in the app, including fonts, icons, images, videos, and GIFs.
+- **ios**: Contains the iOS-specific configuration files and resources.
+- **lib**: Contains the main source code of the Flutter app.
+- **test**: Contains unit tests for the app.
+- **venv**: Contains the virtual environment for the project.
+- **.gitignore**: Specifies files and directories that should be ignored by version control.
+- **.metadata**: Stores metadata related to the project.
+- **README.md**: The document you are currently reading.
+- **gradlew**, **gradlew.bat**: Gradle wrapper scripts for Android builds.
+- **local.properties**: Specifies the path to the Android SDK on your machine.
+- **pubspec.lock**: Generated file that tracks the exact versions of dependencies used in the project.
+- **pubspec.yaml**: Specifies the dependencies and other configuration details of the Flutter app.
 
  ## Getting Started 
 To get started with DroneS500, follow these steps:
