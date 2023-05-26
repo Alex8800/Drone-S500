@@ -2,14 +2,14 @@
 Welcome to the DroneS500 project repository! This Flutter-based app allows you to remotely control your drone using a server. It provides cross-platform compatibility, enabling you to control your drone from various devices. With DroneS500, you can control your drone using voice commands, joysticks, and access additional information about drones.
 
  ## Table of Contents 
-- [Introduction](https://chat.openai.com/?model=text-davinci-002-render-sha#introduction)
-- [Features](https://chat.openai.com/?model=text-davinci-002-render-sha#features)
-- [Requirements](https://chat.openai.com/?model=text-davinci-002-render-sha#requirements)
-- [Folder Structure](https://chat.openai.com/?model=text-davinci-002-render-sha#folder-structure)
-- [Getting Started](https://chat.openai.com/?model=text-davinci-002-render-sha#getting-started)
-- [Usage](https://chat.openai.com/?model=text-davinci-002-render-sha#usage)
-- [Contributing](https://chat.openai.com/?model=text-davinci-002-render-sha#contributing)
-- [License](https://chat.openai.com/?model=text-davinci-002-render-sha#license)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Folder Structure](#folder-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
  ## Introduction 
 DroneS500 is a versatile Flutter app designed to facilitate remote control of drones using a server. It offers cross-platform functionality, allowing users to control their drones from multiple devices, including smartphones and tablets. The app also provides features such as voice control and joystick input, making the drone control experience more interactive and intuitive. Additionally, DroneS500 offers a section dedicated to providing information about drones, including their functionality, technology, and features.
