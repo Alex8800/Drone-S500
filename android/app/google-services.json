@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "541510011496",
+    "firebase_url": "https://flutter-auth-quad.firebaseio.com",
+    "project_id": "flutter-auth-quad",
+    "storage_bucket": "flutter-auth-quad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541510011496:android:2cddad7cd526793b1f49dd",
+        "android_client_info": {
+          "package_name": "com.drone.geo.drone_s500"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541510011496-pqrrrbguft0mv6tiobjrv66mcdvpat3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drone.geo.drone_s500",
+            "certificate_hash": "b8cfbcf7544a7b56e29b2a47dd36d818dac810dc"
+          }
+        },
+        {
+          "client_id": "541510011496-816nuvdvicj6aune2iiknql1go3evts9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpO83hx0i2x5HufjplvUViZQBKkP8gfTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541510011496-816nuvdvicj6aune2iiknql1go3evts9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,164 @@
+name: drone_s500
+description: Quadcopter flutter application
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  ssh: ^0.0.7
+  flutter_tts: ^1.2.0
+  ping_discover_network: ^0.2.0+1
+  fab_circular_menu: ^1.0.0
+  flutter_fadein: ^1.1.1
+  curved_navigation_bar: ^0.3.2
+  text_to_path_maker: ^0.5.7
+  argon_buttons_flutter: ^1.0.2
+  get_it: ^4.0.2
+  provider: ^4.1.2
+  flutter_facebook_login: 3.0.0
+  google_sign_in: ^4.0.7
+  firebase_auth: ^0.16.0
+  firebase_core: ^0.4.0+8
+  cloud_firestore: ^0.13.6
+  page_transition: ^1.1.5
+  animated_text_kit: ^2.0.0
+  geolocator: ^5.1.4+2
+  material_design_icons_flutter: ^4.0.5245
+  custom_cardgridview: ^0.0.1
+  flutter_staggered_grid_view: ^0.3.0
+  google_maps_flutter: ^0.5.21+15
+  location: ^2.3.5
+  floating_action_bubble: ^1.0.9
+  flutter_staggered_animations: ^0.1.2
+  flutter_vlc_player: ^2.0.0
+  swipe_gesture_recognizer: ^0.0.2
+  google_fonts: ^1.1.0
+  flippable_box: ^1.0.6
+  video_player: ^0.10.5+2
+  on_boarding_ui: ^0.0.4
+  simple_animations: ^2.2.1
+  cupertino_icons: ^0.1.2
+  animated_dialog_box: ^0.0.2
+  settings_ui: ^0.3.0
+  flutter_fader: ^1.0.2
+  speech_to_text: ^2.2.0
+  popup_window: ^1.0.0+3
+  slimy_card: ^1.0.4
+  url_launcher: ^5.4.10
+  avatar_glow: ^1.1.0
+  custom_dropdown: ^0.0.2
+  flutter_camera_ml_vision: ^2.2.5
+  image_picker: ^0.5.0
+  intl: ^0.15.8
+  flutter_spinkit: ^4.1.2+1
+  flushbar: ^1.10.4
+  wakelock: ^0.1.4+1
+
+#  ssh: ^0.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  font_awesome_flutter: ^8.8.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/images-jpg/blue_mountains.jpg
+     - assets/images-png/login_logo.png
+     - assets/images-png/gps.png
+     - assets/images-png/camera.png
+     - assets/images-png/gallery.png
+     - assets/images-png/gps_drone.png
+     - assets/gif/intro_logo.gif
+     - assets/images-png/mic.png
+     - assets/images-jpg/login_background.jpg
+     - assets/images-png/joyPadRight.png
+     - assets/images-png/joyPadLeft.png
+     - assets/images-png/settings_account.png
+     - assets/images-png/drone_logo.png
+     - assets/images-png/drone_title.png
+     - assets/images-png/drone_title_white.png
+     - assets/images-png/cover.png
+     - assets/gif/load.gif
+     - assets/images-png/face_detect.png
+     - assets/images-png/objects_detect.png
+     - assets/images-png/intro_ai.png
+     - assets/images-png/location.png
+     - assets/images-png/intro_camera.png
+     - assets/gif/intro_load.gif
+     - assets/video-mp4/drone_intro.mp4
+     - assets/video-mp4/video.mp4
+     - assets/gif/drone_intro.gif
+     - assets/gif/drone_intro0.gif
+     - assets/images-png/drone_camera.png
+     - assets/images-jpg/flysafe_bg.jpg
+     - assets/images-jpg/history.jpg
+     - assets/gif/functionality.gif
+     - assets/images-jpg/temporaryBg.jpg
+     - assets/images-png/joyStickHead.png
+     - assets/images-png/take_video.png
+     - assets/images-png/stop.png
+     - assets/images-png/home.png
+     - assets/images-png/home_button.png
+     - assets/images-png/menu.png
+     - assets/images-png/detect_text.png
+     - assets/images-png/stop_engine.png
+     - assets/images-png/extend_left.png
+     - assets/images-png/extend_right.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/worksans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/worksans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/worksans/WorkSans-Medium.ttf
+
+    - family: Colonna
+      fonts:
+        - asset: assets/fonts/COLONNA.ttf
+
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
